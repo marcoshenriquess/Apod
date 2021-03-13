@@ -1,23 +1,31 @@
 import React from 'react';
 import TopoSite from '../../components/TopoSite/TopoSite';
 import RodapeSite from '../../components/RodapeSite/RodapeSite';
+import perfil from './image/banner.png'
+import perfil2 from './image/Logo.png'
+import './Desenvolvedores.css';
 function Desenvolvedores(){
     return(
         <>
         <TopoSite/>
-            <main>
+            <nav>
                 
-                <h2>Danilo Filitto</h2>         
+                <h2>Marcos Henrique</h2>         
                 <section>
-                   
-                    <img src="imagens/danilo.jpg" alt="Danilo Filitto" />
-                    
-                    <p>Meu nome é Danilo Filitto, sou Mestre em Ciência da Computação pela Universidade Estadual de Maringá – UEM, Pós-Graduado em Redes de Computadores e Comunicação de Dados pela Universidade do Estado do Paraná – UEL, Bacharel em Ciência da Computação pela Universidade do Oeste Paulista – UNOESTE.
-Atuo na área acadêmica como professor desde 2006. Atualmente leciono na UNOESTE (Universidade do Oeste Paulista) e no SENAC (Serviço Nacional de Aprendizagem Comercial) da cidade de Presidente Prudente. Além de professor sou desenvolvedor de jogos e palestrante.
-As Área de Pesquisa em qual atuo são: desenvolvimento de Softwares, estrutura de dados, processamento de imagens digitais, redes de computadores e desenvolvimento de jogos.
-Sou defensor de várias causas, como a da igualdade para todos, não importa o sexo, cor da pele, religião, condição social ou qualquer outra forma antiguada de classificação. Somos todos iguais.</p>
-                </section>    
-            </main>
+                    <div id="foto">
+                    <img src={perfil} alt="MH Dev" />
+                    <img id="MHC" src={perfil2} alt="MH Computer" />
+                    </div>
+                    <p>
+                        Meu Nome é Marcos Henrique, sou Aluno do curso Tecnico em Informatica onde , tenho conhecimento basico em PHP, HTML, CSS, JAVA e REACT.<br/> Ja me formei em cursos de 
+                        AutoCad e Operador de computador. Sou dono de duas "empresas" uma chamada de MH Dev, relacionada a criação
+                        de sites e edição de imagens,e a outra chamada MH computer, onde realizo
+                        manutenção e formatação de computadores.
+                    </p>
+                </section>  
+                
+            <h1>Copyright © 2021. Desenvolvido por MH Dev.</h1>  
+            </nav>
             <RodapeSite/>
         </>
     );

@@ -13,9 +13,11 @@ function TopoSite(){
                 <div id="items">
                 <S.P>Astronomia Foto Do Dia</S.P>
                     <div id="items1">
-                        <S.H3><Link to="/">Home</Link></S.H3>
-                        <S.H3 id="details"><Link to="/Apod">Foto do Dia</Link></S.H3>
+                        <S.Span>|</S.Span>
+                        <S.H3 id="details"><Link to="/">Foto do Dia</Link></S.H3>
+                        <S.Span>|</S.Span>
                         <S.H3 id="details"><Link to="/Desenvolvedores">Desenvolvedores</Link></S.H3>
+                        <S.Span>|</S.Span>
                     </div>
                 </div>
                 

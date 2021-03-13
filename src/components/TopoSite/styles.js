@@ -16,6 +16,11 @@ export const Header = styled.header`
         
 `;
 
+export const Span = styled.span `
+    font-size: 20px;
+    font-weight: bold;
+`;
+
 export const P = styled.p`
     flex: 2;
     font-size: 40px;
@@ -25,7 +30,6 @@ export const P = styled.p`
 `;
 export const H3 = styled.h3`
     flex: 1;
-    border-left: 3px solid black;
     & a{
         color: white;
         text-decoration: none;

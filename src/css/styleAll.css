@@ -24,9 +24,6 @@ div#items{
     width: 500px;
     margin: 10px;
 }
-#banner{
-    width: 100px;
-}
 #nasa{
     width: 150px;
     float: left;
@@ -61,29 +58,21 @@ main section {
     width: 90%;
     height: 420px;
    border-top:1px dashed #999;
+   border-bottom:1px dashed #999;
     margin: 10px auto 35px auto!important;
   text-align: center;
   display: flex;
   flex-direction: row-reverse;
-  border-radius: 0px 15px 15px 0px;
 
 }
 main section img{
     margin: 40px 5px 0px 40px;
     max-height: 90%;
-    max-width: 98%;
-    box-shadow: 1px 1px 6px 1px #000;
+    max-width: 99%;
     flex: 1;
     
 }
-main section img:hover{
-    transition: all;
-    transition-delay: 100ms;
-    transition-duration: 500ms;
-    transform: scale(1.2,1.2);
-    z-index: 20;
 
-}
 
 main section p{
     flex: 1;
@@ -105,7 +94,10 @@ i{
 .fa-instagram{
     color: rgb(187, 9, 54);
 }
-.fa-youtube{
-    color: red;
+.fa-linkedin{
+    color: rgb(28, 121, 209);
     
+}h1{
+    text-align: center;
+    font-size: 15px;
 }

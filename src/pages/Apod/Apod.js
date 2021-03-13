@@ -31,6 +31,8 @@ function Apod(){
                     }
                     <p>{photoData.explanation}</p>
                 </section>    
+                
+            <h1>Copyright © 2021. Desenvolvido por MH Dev.</h1>
             </main>
             <RodapeSite> </RodapeSite>
         </>

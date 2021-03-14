@@ -57,8 +57,6 @@ main h2, main h3{
 main section {
     width: 90%;
     height: 420px;
-   border-top:1px dashed #999;
-   border-bottom:1px dashed #999;
     margin: 10px auto 35px auto!important;
   text-align: center;
   display: flex;
@@ -78,7 +76,7 @@ main section p{
     flex: 1;
     text-align: justify;
     padding: 50px 25px 80px 5px!important;
-    border-right:1px dashed #999;
+    border-right:1px solid #999;
     font-size: 16px;
     line-height: 24px;
   

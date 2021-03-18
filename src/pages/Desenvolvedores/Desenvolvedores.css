@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+#foto{
+        margin: 40px;
+        right: 60%;
+        align-items: center;
+        flex: 1;
+}
+#foto img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 7px solid black;
+    box-shadow: 0 0 2em black;
+}
+#foto img:hover{
+    border: 7px solid rgb(31, 31, 31);
+    animation: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    box-shadow: 0 0 4em black;
+}
+nav{
+
+    height: auto;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px;
+    padding-bottom: 80px;
+    padding-top: 170px;
+    clear: both;
+}
+nav h2, nav h3{
+    text-align: center;
+    margin: 3px auto;
+}
+nav section {
+    width: 90%;
+    height: 420px;
+    border-top:1px dashed #999;
+    border-bottom:1px dashed #999;
+    margin: 10px auto 35px auto!important;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav section img{
+    width: 250px;
+    height: 250px;
+    flex: 1;
+    
+}
+
+nav section p{
+    flex: 1;
+    text-align: justify;
+    padding: 50px 25px 80px 5px!important;
+    border-right:1px dashed #999;
+    font-size: 16px;
+    line-height: 24px;
+  
+}
+#MHC{
+    width: 300px;
+    height: 300px;
+}

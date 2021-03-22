@@ -71,7 +71,7 @@ main section img{
     max-height: 90%;
     max-width: 99%;
     flex: 1;
-    
+    cursor: pointer;
 }
 
 
